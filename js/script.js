@@ -278,7 +278,7 @@ function restoreBingoState() {
 }
 
 function setStyleSheet(url) {
-    if (url == undefined) url = "css/DHL.css";
+    if (url == undefined) url = "css/style.css";
     var drawbonus = true
     if (url.includes("DHL")) drawbonus = false
     var stylesheet = document.getElementById("stylesheet");
